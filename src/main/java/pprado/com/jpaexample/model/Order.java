@@ -9,6 +9,7 @@ import java.util.Date;
 @Entity
 @Table(name = "orders")
 public class Order {
+
     @Id
     @Column(name ="order_id")
     private Integer orderId;

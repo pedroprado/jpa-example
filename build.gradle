@@ -9,7 +9,12 @@ group = 'pprado.com'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+bootJar {
+	archiveFileName = 'jpa-example.jar'
+}
+
 configurations {
+
 	developmentOnly
 	runtimeClasspath {
 		extendsFrom developmentOnly
